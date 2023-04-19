@@ -1,0 +1,26 @@
+@import "../../style/sass/variables";
+
+.icon {
+  position: relative;
+  display: inline-block;
+  .fa {
+    font-size: 18px;
+    color: $icon-color;
+  }
+
+  &__item {
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    background: $primary-color;
+    font-size: 10px;
+    color: $white-color;
+    line-height: 13px;
+    text-align: center;
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 50%;
+    top: -7px;
+    right: -12px;
+  }
+}

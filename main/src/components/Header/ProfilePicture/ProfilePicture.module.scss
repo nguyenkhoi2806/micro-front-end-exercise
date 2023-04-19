@@ -1,0 +1,50 @@
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  &__name{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 5px;;
+  }
+
+  &__userDropdownMenu {
+    position: absolute;
+    position: absolute;
+    background: #747679;
+    top: 42px;
+    width: 100px;
+    left: 15px;
+    text-align: center;
+    z-index: 9999;
+    padding: 10px;
+    display: none;
+    &__show {
+      display: inline-block;
+    }
+  }
+
+  &__image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  &__default {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: blueviolet;
+  }
+
+  &__item {
+    list-style: none;
+    color: #fff;
+
+    &:hover {
+      color: aqua;
+      cursor: pointer;
+    }
+  }
+}

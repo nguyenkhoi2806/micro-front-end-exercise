@@ -1,0 +1,26 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~jquery-ui-bundle/jquery-ui.min.css';
+@import '~jquery-nice-select/css/nice-select.css';
+@import '~font-awesome/css/font-awesome.min.css';
+@import '~elegant-icons/style.css';
+
+@import "variables";
+@import "mixins";
+@import "base";
+@import "hero";
+@import "home-page";
+@import "breadcrumb";
+@import "sidebar";
+@import "shop";
+@import "shop-details";
+@import "shoping-cart";
+@import "checkout";
+@import "blog";
+@import "blog-sidebar";
+@import "blog-details";
+@import "footer";
+@import "contact";
+@import "responsive";
+@import "background";
+
+@import "toast-vue";
