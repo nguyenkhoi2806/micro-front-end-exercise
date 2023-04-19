@@ -15,4 +15,5 @@ yarn start
 - yarn checkout
 - yarn product
 - yarn shared
+- yarn chat
 ```
